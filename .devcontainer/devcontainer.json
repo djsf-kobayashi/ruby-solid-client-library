@@ -6,7 +6,7 @@
     "terminal.integrated.shell.linux": "/bin/bash"
   },
   "extensions": [
-    "rebornix.Ruby"
+    "rebornix.Ruby", "GitHub.copilot"
   ],
   "postCreateCommand": "bundle install"
 }
