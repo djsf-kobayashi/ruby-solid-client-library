@@ -1,0 +1,9 @@
+source 'https://rubygems.org'
+
+gem 'httparty' # if you need an HTTP client for API requests
+# Add other gems you might need
+
+group :development, :test do
+  gem 'rspec' # for testing
+  # Other development/test-only gems go here
+end
