@@ -1,0 +1,12 @@
+{
+  "name": "Ruby Dev Environment",
+  "dockerFile": "Dockerfile",
+  "forwardPorts": [3000],
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "extensions": [
+    "rebornix.Ruby"
+  ],
+  "postCreateCommand": "bundle install"
+}
